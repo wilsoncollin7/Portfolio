@@ -1,5 +1,6 @@
 body {
     background-color: #efeeef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer {
@@ -11,4 +12,8 @@ body {
     height: 60px;
     line-height: 60px;
     background-color: #343a40;
+}
+
+.carousel-inner {
+    height: 600px;
 }

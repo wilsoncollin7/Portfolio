@@ -19,3 +19,32 @@ body {
 .carousel-inner {
     height: 600px;
 }
+
+@media screen and (max-width: 1000px) {
+    .carousel-inner {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #about-me {
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+    .img-thumbnail {
+        height: 200px;
+        float: left;
+    }
+    .carousel-inner {
+        height: 260px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-inner {
+        height: 180px;
+    }
+    
+}

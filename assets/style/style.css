@@ -21,23 +21,58 @@ body {
     background-color: #343a40;
 }
 
+#profilePic {
+    width: 100%;
+}
+
 .carousel-inner {
     height: 600px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+    #profilePic {
+        width: 45%;
+        margin-left: 25%;
+    }
     body {
-        font-size: large;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #profilePic {
+        width: 45%;
+        display: none;
+    }
+    .navbar-brand {
+        font-size: 60px;
+    }
+    .navbar {
+        font-size: 45px;
+    }
+    .navbar-toggler-icon {
+        height: 80px;
+        width: 80px;
+    }
+    #followMe {
+        width: 100%;
+    }
+    body {
+        font-size: xx-large;
     }
     .carousel-inner {
         height: 350px;
+    }
+    .footer {
+        height: 110px;
     }
 }
 
 @media screen and (max-width: 760px) {
     body {
-        font-size: x-large;
+        font-size: xx-large;
     }
+    
     #about-me {
         margin: auto;
         float: left;
@@ -54,6 +89,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        font-size: xx-large;
+    }
     .carousel-inner {
         height: 180px;
     }

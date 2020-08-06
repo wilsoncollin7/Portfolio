@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
-
         <title>Collin Wilson</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/170aa037ab.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" href="assets/beer (1).png">
-        
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="icon" href="assets/dev-photos/beer (1).png">
     </head>
 
     <body>
-
         <!-- Navbar which is consistent on all pages -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
             <a class="navbar-brand" href="index.html">Collin Wilson</a>
@@ -30,29 +26,25 @@
               </div>
             </div>
         </nav>
-
         <!-- main section of the page -->
         <main>
-
             <section class="container">
-
                 <section class="row">
-
                     <!-- photo carousel -->
-                    <div class="col-md-12">
+                    <div class="col-xl-12">
                         <div id="carouselExampleControls" class="carousel slide border mb-3" data-ride="carousel">
                             <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="assets/20170402_100636.jpg" class="d-block w-100" alt="collin-on-cliff">
+                                <img src="assets/photos/20170402_100636.jpg" class="d-block w-100" alt="collin-on-cliff">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/20170406_150253.jpg" class="d-block w-100" alt="collin-amster">
+                                <img src="assets/photos/20170406_150253.jpg" class="d-block w-100" alt="collin-amster">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/IMG_20191015_120726.jpg" class="d-block w-100" alt="collin-disney">
+                                <img src="assets/photos/IMG_20191015_120726.jpg" class="d-block w-100" alt="collin-disney">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/A_0018.jpg" class="d-block w-100" alt="collin-wedding">
+                                <img src="assets/photos/A_0018.jpg" class="d-block w-100" alt="collin-wedding">
                             </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -65,27 +57,23 @@
                             </a>
                         </div>
                     </div>
-
                 </section>
-
                 <article class="row" id="about-me">
-
                     <!-- about me section -->
-                    <div class="col-md-9">
+                    <div class="col-xl-9">
                         <h1>About Me</h1>
                         <div class="row">
-                            <div class="col-md-3">
-                                <img class="img-thumbnail" src="assets/profile-pic.jpg" alt="profilepicture">
+                            <div class="col-xl-3">
+                                <img class="rounded" id="profilePic" src="assets/photos/profile-pic.jpg" alt="profilepicture">
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xl-9">
                                 <p>My name is Collin and I am a recent UNCW graduate! I have been involved with computers and programming my whole life. In elementary school, I taught myself to custom make mods for Battlefield 1942! Since then, I have dabbled with numerous aspects of software and hardware including: building my own computer, creating a travel website, and creating multiplayer internet servers. I am currently sharpening my skills as a full stack developer through UNC Chapel Hill’s continuing education program. I would love to one day break into the gaming industry and have a successful AAA video game!</p>
                             </div>
                         </div>
                     </div>
-
                     <!-- left card which has social media links -->
-                    <aside class="col-md-3">
-                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <aside class="col-xl-3">
+                        <div class="card bg-light mb-3" id="followMe">
                             <div class="card-header"><h5>Follow me on:</h5></div>
                             <div class="card-body">
                                 <p class="card-text">
@@ -111,20 +99,15 @@
                             </div>
                         </div>
                     </aside>
-                    
                 </article>
-
             </section>
-
             <!-- filler to make footer work properly -- can be changed later once i know more about code -->
             <div class="row">
                 <div class="col-md-12" style="margin-bottom: 60px;">
                     <p style="visibility: hidden;">lol couldn't get my footer to spce right</p>
                 </div>
             </div>
-
         </main>
-
     </body>
 
     <!-- stick footer which is the same across all pages -->
@@ -146,5 +129,4 @@
             </span>
         </div>
     </footer>
-
 </html>

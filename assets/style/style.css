@@ -30,9 +30,6 @@ body {
 #portCard {
     margin: 10px;
 }
-#portPic {
-    
-}
 
 @media screen and (max-width: 1200px) {
     #profilePic {
@@ -41,6 +38,13 @@ body {
     }
     body {
         font-size: x-large;
+    }
+    #aboutHeader {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    #description {
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 1000px) {

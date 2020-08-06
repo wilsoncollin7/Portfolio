@@ -6,4 +6,4 @@ Here is the working link to the site: https://wilsoncollin7.github.io/Responsive
 
 Here is a snip of the front page:
 
-<img src="assets/Capture.JPG">
+<img src="assets/dev-photos/Capture.JPG">

@@ -13,7 +13,7 @@
 
     <body>
         <!-- Navbar which is consistent on all pages -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-4">
             <a class="navbar-brand" href="index.html">Collin Wilson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,9 +33,20 @@
                 <section class="row" style="padding: 5px;">
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
-                        <h1 class="mb-3">Contact</h1>
-                        <!-- contact form -->
-                        <form class="needs-validation" novalidate>
+
+                        <div class="jumbotron mb-3 shadow" id="contactJumbo">
+                            <div class="containter">
+                                <h1 class="display-4">Contact Me:</h1>
+                                <hr class="my-3">
+                                <h3>Phone Number:</h2>
+                                <h5>(704) 254-1583</h5>
+                                <h3>Email: </h2>
+                                <h5><a id="mail" href="mailto:wilsoncollin7@gmail.com">wilsoncollin7@gmail.com</a></h5>
+                            </div>
+                        </div>
+                        
+                        <!-- contact form not working - display: none -->
+                        <form class="needs-validation contactForm" novalidate>
                             <!-- first name -->
                             <div class="form-row">
                                 <div class="col-md-6 mb-3">
@@ -87,6 +98,9 @@
     <footer class="footer">
         <div class="container">
             <span>
+                <a class="btn btn-social-icon btn-github" id="footerIcon" href="https://github.com/wilsoncollin7" target="_blank" style="color: white;">
+                    <span class="fa fa-github"></span>
+                </a>
                 <a class="btn btn-social-icon btn-facebook" id="footerIcon" href="https://www.facebook.com/collin.wilson.167/" target="_blank" style="color: white;">
                     <span class="fa fa-facebook"></span>
                 </a>

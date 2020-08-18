@@ -13,7 +13,7 @@
 
     <body>
         <!-- Navbar which is consistent on all pages -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-4">
             <a class="navbar-brand" href="index.html">Collin Wilson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
                 <section class="row">
                     <!-- photo carousel -->
                     <div class="col-xl-12">
-                        <div id="carouselExampleControls" class="carousel slide border mb-3" data-ride="carousel">
+                        <div id="carouselExampleControls" class="carousel slide border mb-3 shadow" data-ride="carousel">
                             <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="assets/photos/20170402_100636.jpg" class="d-block w-100" alt="collin-on-cliff">
@@ -64,18 +64,24 @@
                         <h1 id="aboutHeader">About Me</h1>
                         <div class="row">
                             <div class="col-xl-3">
-                                <img class="rounded" id="profilePic" src="assets/photos/profile-pic.jpg" alt="profilepicture">
+                                <img class="rounded shadow" id="profilePic" src="assets/photos/profile-pic.jpg" alt="profilepicture">
                             </div>
                             <div class="col-xl-9" id="description">
                                 <p>My name is Collin and I am a recent UNCW graduate! I have been involved with computers and programming my whole life. In elementary school, I taught myself to custom make mods for Battlefield 1942! Since then, I have dabbled with numerous aspects of software and hardware including: building my own computer, creating a travel website, and creating multiplayer internet servers. I am currently sharpening my skills as a full stack developer through UNC Chapel Hill’s continuing education program. I would love to one day break into the gaming industry and have a successful AAA video game!</p>
+                                <h5 id="resumeLink"><a href="assets/dev-photos/COLLIN DEAN WILSON.pdf" target="#" id="resumeLink">Check out my Résumé</a></h5>
                             </div>
                         </div>
                     </div>
                     <!-- left card which has social media links -->
                     <aside class="col-xl-3">
-                        <div class="card bg-light mb-3" id="followMe">
+                        <div class="card bg-light mb-3 shadow" id="followMe">
                             <div class="card-header"><h5 id="followmeHeader">Follow me on:</h5></div>
                             <div class="card-body">
+                                <p class="card-text" >
+                                    <a class="btn btn-block btn-social btn-facebook border" id="followmeText" href="https://github.com/wilsoncollin7" target="_blank">
+                                        <span class="fa fa-github"></span> GitHub
+                                    </a>
+                                </p>
                                 <p class="card-text" >
                                     <a class="btn btn-block btn-social btn-facebook border" id="followmeText" href="https://www.facebook.com/collin.wilson.167/" target="_blank">
                                         <span class="fa fa-facebook"></span> Facebook
@@ -114,6 +120,9 @@
     <footer class="footer">
         <div class="container">
             <span>
+                <a class="btn btn-social-icon btn-github" id="footerIcon" href="https://github.com/wilsoncollin7" target="_blank" style="color: white;">
+                    <span class="fa fa-github"></span>
+                </a>
                 <a class="btn btn-social-icon btn-facebook" id="footerIcon" href="https://www.facebook.com/collin.wilson.167/" target="_blank" style="color: white;">
                     <span class="fa fa-facebook"></span>
                 </a>

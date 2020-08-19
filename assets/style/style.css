@@ -4,7 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar {
-    background-color: #b84900;
+    background-color: #273E47;
 }
 .navbar-brand {
     font-size: 40px;
@@ -18,17 +18,21 @@ body {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #b84900;
+    background-color: #273E47;
+}
+#description {
+    color: white;
+    background-color: #BD632F;
 }
 #portBody {
     color: white;
-    background-color: #b84900;
+    background-color: #BD632F;
 }
 .portBtn {
-    background-color: tan;
+    background-color: #D8C99B;
 }
 .portGitBtn {
-    background-color: rgb(209, 152, 77);
+    background-color: #D8973C;
 }
 #profilePic {
     width: 100%;
@@ -37,7 +41,7 @@ body {
     height: 600px;
 }
 #resumeLink {
-    color: #b84900;
+    color: white;
     text-align: center;
 }
 #portCard {
@@ -45,7 +49,7 @@ body {
 }
 #contactJumbo {
     color: white;
-    background-color: #b47d58;
+    background-color: #BD632F;
 }
 #mail {
     color: white;

@@ -1,0 +1,5 @@
+plum: 		#A4243B
+tan: 		#D8C99B
+burnt-yellow: 	#D8973C
+burnt-orange: 	#BD632F
+navy: 		#273E47

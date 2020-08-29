@@ -24,9 +24,10 @@ body {
     color: white;
     background-color: #BD632F;
 }
-#portBody {
+#portBody, #sumbitBtn  {
     color: white;
     background-color: #BD632F;
+    border: 1px solid #BD632F;
 }
 .portBtn {
     background-color: #D8C99B;
@@ -54,7 +55,10 @@ body {
 #mail {
     color: white;
 }
-.contactForm {
+/* .contactForm {
+    display: none;
+} */
+#contactJumbo {
     display: none;
 }
 

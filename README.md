@@ -3,7 +3,7 @@
 
   Here is my personal portfolio. This project is evolving and reflects my skills as a developer and designer. It contains links to all of my social media and my previous project. Do check it out and you can contact me if you have any questions!
 
-<img src="assets/dev-photos/Capture.JPG">
+<img src="assets/dev-photos/snip.JPG">
 
 Here is the working link to the site: https://wilsoncollin7.github.io/Portfolio/
 
